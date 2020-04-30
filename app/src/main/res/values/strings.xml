@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº bolas</string>
+    <string name="simple">Simple</string>
+    <string name="doble">Doble</string>
+</resources>
