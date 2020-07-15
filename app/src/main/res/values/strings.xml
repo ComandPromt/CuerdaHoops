@@ -3,4 +3,12 @@
     <string name="n_bolas">Nº bolas</string>
     <string name="simple">Simple</string>
     <string name="doble">Doble</string>
+    <string name="nav_header_desc">Home</string>
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">aaa</string>
+    <string name="action_settings">About</string>
+    <string name="diametro">Diametro</string>
 </resources>
