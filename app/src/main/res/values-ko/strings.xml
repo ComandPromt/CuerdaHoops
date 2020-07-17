@@ -17,4 +17,5 @@
     <string name="sinEnganche">장애 없음</string>
     <string name="separacion">진주 사이의 공간 (cm)</string>
     <string name="calcular">계산하다</string>
+    <string name="clear">Clear</string>
 </resources>

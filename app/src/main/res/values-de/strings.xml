@@ -16,4 +16,5 @@
     <string name="sinEnganche">ohne Anhängerkupplung</string>
     <string name="separacion">Abstand zwischen Perlen (cm)</string>
     <string name="calcular">Berechnung</string>
+    <string name="clear">Clear</string>
 </resources>

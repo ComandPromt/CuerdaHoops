@@ -17,4 +17,5 @@
     <string name="sinEnganche">без заминок</string>
     <string name="separacion">Расстояние между жемчужинами (см)</string>
     <string name="calcular">Рассчитать</string>
+    <string name="clear">Clear</string>
 </resources>

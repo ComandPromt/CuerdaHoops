@@ -17,4 +17,5 @@
     <string name="sinEnganche">Žádné spojení</string>
     <string name="separacion">Mezera mezi perlami (cm)</string>
     <string name="calcular">Vypočítat</string>
+    <string name="clear">Clear</string>
 </resources>

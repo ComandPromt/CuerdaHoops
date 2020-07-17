@@ -17,4 +17,5 @@
     <string name="sinEnganche">Bez problemów</string>
     <string name="separacion">Odległość między perłami (cm)</string>
     <string name="calcular">Oblicz</string>
+    <string name="clear">Clear</string>
 </resources>

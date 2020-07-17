@@ -17,4 +17,5 @@
     <string name="sinEnganche">بدون دردسر</string>
     <string name="separacion">فاصله بین مرواریدها (سانتی متر)</string>
     <string name="calcular">محاسبه</string>
+    <string name="clear">Clear</string>
 </resources>

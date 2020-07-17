@@ -17,4 +17,5 @@
     <string name="sinEnganche">Aksaklık yok</string>
     <string name="separacion">İnciler arasındaki boşluk (cm)</string>
     <string name="calcular">Hesaplamak</string>
+    <string name="clear">Clear</string>
 </resources>

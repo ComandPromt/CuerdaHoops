@@ -11,5 +11,12 @@
         android:orderInCategory="100"
         android:title="@string/delete"
         app:showAsAction="never" />
+    <item
 
+        android:id="@+id/limpiar"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        android:onClick="limpiar"
+        android:orderInCategory="100"
+        android:title="@string/clear"
+        app:showAsAction="never" />
 </menu>

@@ -17,4 +17,5 @@
     <string name="sinEnganche">問題はありません</string>
     <string name="separacion">真珠の間のスペース（cm）</string>
     <string name="calcular">計算する</string>
+    <string name="clear">Clear</string>
 </resources>

@@ -29,6 +29,7 @@ import com.google.android.material.navigation.NavigationView;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -207,101 +208,120 @@ public class MainActivity extends AppCompatActivity {
 
         String result="";
 
+        String medidas="";
+
         try {
 
-            String datoDiametro=diametro.getText().toString();
+
+            String datoDiametro = diametro.getText().toString();
 
             String medidaBola = bola.getText().toString();
 
-            if (opcion==3 && !datoDiametro.isEmpty() && !medidaBola.isEmpty()) {
+            String datoEnganche=" || Con enganche";
 
-                medidaDiametro = Double.parseDouble(datoDiametro);
-
-                medBola = Double.parseDouble(medidaBola);
-
-                int espacioEnganche=2;
-
-                if(opcionEnganche==2){
-                    espacioEnganche=0;
-                }
-
-                if (medBola > 0.0) {
-
-                    int calculo = (int)Math.round ((((medidaDiametro * 3.14) - espacioEnganche) + medidaSeparacion) / (medBola + medidaSeparacion));
-
-                    if (calculo > 0) {
-
-                        result = "Necesitas ";
-
-                        if (calculo == 1) {
-                            result += "1 bola";
-                        }
-
-                        else {
-                            result += calculo + " bolas";
-                        }
-
-                    }
-
-                }
-
+            if (opcionEnganche == 2) {
+                datoEnganche=" || Sin enganche";
             }
 
-            else {
+            String datoBola="";
 
-                if(!datoDiametro.isEmpty() && opcion!=3){
+            if(!medidaBola.isEmpty()){
+                datoBola=" || bola --> "+medidaBola;
+            }
 
-                    String metodo="";
+            medidas="Diametro --> "+datoDiametro+datoBola+" || separacion --> "+medidaSeparacion+datoEnganche;
 
-                    String resultado="";
-
-                    double calculo=0;
+            if(!datoDiametro.isEmpty() && !medidaBola.isEmpty() && opcion == 3){
 
                     medidaDiametro = Double.parseDouble(datoDiametro);
 
-                    if(opcion==1){
+                    medBola = Double.parseDouble(medidaBola);
 
-                        metodo="Simple: ";
+                    int espacioEnganche = 2;
 
-                        calculo=(medidaDiametro*10.7)/4;
+                    if (opcionEnganche == 2) {
+                        espacioEnganche = 0;
+                    }
 
-                        if(opcionEnganche==2){
-                            calculo+=2;
+                    if (medBola > 0.0) {
+
+                        int calculo = (int) Math.round((((medidaDiametro * 3.14) - espacioEnganche) + medidaSeparacion) / (medBola + medidaSeparacion));
+
+                        if (calculo > 0) {
+
+                            result = "Necesitas ";
+
+                            if (calculo == 1) {
+                                result += "1 bola";
+                            }
+
+                            else {
+                                result += calculo + " bolas";
+                            }
+
                         }
-
-                        resultado=calcularMedida(truncar(calculo));
 
                     }
 
-                    if(opcion==2){
+                }
 
-                        metodo="Doble: ";
+                else {
 
-                        calculo=(medidaDiametro*142.5)/8.7;
+                    if(opcion<3 && !datoDiametro.isEmpty()) {
 
-                        if(opcionEnganche==2){
-                            calculo-=17;
+                        String metodo = "";
+
+                        String resultado = "";
+
+                        double calculo = 0;
+
+                        medidaDiametro = Double.parseDouble(datoDiametro);
+
+                        if (opcion == 1) {
+
+                            metodo = "Simple: ";
+
+                            calculo = (medidaDiametro * 10.7) / 4;
+
+                            if (opcionEnganche == 2) {
+                                calculo += 2;
+                            }
+
+
                         }
 
-                        else{
-                            calculo-=19;
+                        if (opcion == 2) {
+
+                            metodo = "Doble: ";
+
+                            calculo = (medidaDiametro * 142.5) / 8.7;
+
+                            if (opcionEnganche == 2) {
+                                calculo -= 17;
+                            }
+
+                            else {
+                                calculo -= 19;
+                            }
+
                         }
 
-                        resultado=calcularMedida(truncar(calculo));
+                        resultado = calcularMedida(truncar(calculo));
 
-                    }
-
-                    result=metodo+" cadena --> "+resultado;
+                        result = metodo + " cadena --> " + resultado;
 
                 }
 
             }
 
-            result+=".";
+            result += ".";
 
-            if(!result.equals(".")){
+            if (!result.equals(".")) {
+
                 resultado.setText(result);
-                guardarArchivo(result);
+
+                guardarArchivo(medidas+"\n"+result);
+
             }
 
         }
@@ -330,7 +350,9 @@ public class MainActivity extends AppCompatActivity {
 
             if(!lectura.contains(dato)){
                 archivo.write(dato);
+               archivo.write("\n\n");
             }
+
             archivo.flush();
 
             archivo.close();
@@ -352,21 +374,23 @@ public class MainActivity extends AppCompatActivity {
 
     public void borrar(MenuItem item) {
 
-        int numItemsSelected=seleccionABorrar.size();
+        if(selectedItem.length()>1){
 
-        String textoConfirmacion="";
+            int numItemsSelected = seleccionABorrar.size();
 
-        if(numItemsSelected==1){
-            textoConfirmacion="¿Desea borrar a "+selectedItem+"?";
-        }
+            String textoConfirmacion = "";
 
-        if(numItemsSelected>1){
-            textoConfirmacion="¿Desea borrar "+numItemsSelected+" elementos?";
-        }
+            if (numItemsSelected == 1) {
+                textoConfirmacion = "¿Desea borrar a " + selectedItem + "?";
+            }
 
-        if(!textoConfirmacion.isEmpty()) {
+            if (numItemsSelected > 1) {
+                textoConfirmacion = "¿Desea borrar " + numItemsSelected + " elementos?";
+            }
 
-            final AlertDialog show = new AlertDialog.Builder(view.getContext())
+            if (!textoConfirmacion.isEmpty()) {
+
+                final AlertDialog show = new AlertDialog.Builder(view.getContext())
                     .setTitle("Confirmacion")
                     .setMessage(textoConfirmacion)
                     .setIcon(android.R.drawable.ic_dialog_alert)
@@ -396,9 +420,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 seleccionABorrar.clear();
 
-                            }
-
-                            catch(Exception e){
+                            } catch (Exception e) {
 
                             }
 
@@ -407,6 +429,7 @@ public class MainActivity extends AppCompatActivity {
                     })
 
                     .setNegativeButton(android.R.string.no, null).show();
+            }
 
         }
 
@@ -414,5 +437,38 @@ public class MainActivity extends AppCompatActivity {
 
     public void about(MenuItem item) {
         Toast.makeText(getApplicationContext(),"smr2gocar@gmail.com",Toast.LENGTH_SHORT).show();
+    }
+
+    public void limpiar(MenuItem item) {
+        final AlertDialog show = new AlertDialog.Builder(view.getContext())
+                .setTitle("Confirmacion")
+                .setMessage("¿Desea limpiar la lista?")
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog, int whichButton) {
+
+                            listaABorrar.clear();
+                            seleccionABorrar.clear();
+                            GalleryFragment.listaBd.clear();
+
+                        try {
+
+                            OutputStreamWriter archivo = null;
+
+                            archivo = new OutputStreamWriter(openFileOutput("cuerdahoops.txt", MODE_PRIVATE));
+
+                            archivo.close();
+
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+
+
+                    }
+
+                })
+
+                .setNegativeButton(android.R.string.no, null).show();
     }
 }

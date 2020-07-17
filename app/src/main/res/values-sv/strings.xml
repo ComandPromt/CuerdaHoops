@@ -17,4 +17,5 @@
     <string name="sinEnganche">Ingen problem</string>
     <string name="separacion">Utrymme mellan pärlor (cm)</string>
     <string name="calcular">Beräkna</string>
+    <string name="clear">Clear</string>
 </resources>

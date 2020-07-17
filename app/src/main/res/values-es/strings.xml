@@ -17,4 +17,5 @@
     <string name="sinEnganche">Sin enganche</string>
     <string name="separacion">Espacio entre bolas (cm)</string>
     <string name="calcular">Calcular</string>
+    <string name="clear">Clear</string>
 </resources>

@@ -17,4 +17,5 @@
     <string name="sinEnganche">Sans accroc</string>
     <string name="separacion">Espace entre les perles (cm)</string>
     <string name="calcular">Calculer</string>
+    <string name="clear">Clear</string>
 </resources>

@@ -54,17 +54,23 @@ public class GalleryFragment extends Fragment {
 
                 String bitacoraCompleta = "";
 
-
                 while(linea != null){
 
                     bitacoraCompleta = linea + "\n";
 
                     linea = br.readLine();
 
-                    if(!lista.contains(bitacoraCompleta)){
-                        lista.add(bitacoraCompleta);
+                    lista.add(bitacoraCompleta);
+
+                }
+
+                if(!lista.isEmpty()){
+
+                    if(lista.get(0).length()==1){
+                        lista.remove(0);
                     }
 
+                    lista.removeLast();
                 }
 
                 br.close();
