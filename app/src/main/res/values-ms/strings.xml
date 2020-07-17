@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Bilangan mutiara</string>
+    <string name="simple">Ringkas</string>
+    <string name="doble">Berganda</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Penukaran</string>
+
+    <string name="menu_gallery">Sejarah</string>
+    <string name="action_settings">Mengenai</string>
+    <string name="diametro">Diameter (cm)</string>
+    <string name="delete">Padam</string>
+    <string name="grosorBola">Ketebalan bola (cm)</string>
+    <string name="enganche">Dengan halangan</string>
+    <string name="sinEnganche">Tiada halangan</string>
+    <string name="separacion">Ruang antara mutiara (cm)</string>
+    <string name="calcular">Kira</string>
+</resources>

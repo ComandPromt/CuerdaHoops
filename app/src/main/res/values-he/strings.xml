@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">פניני Nº</string>
+    <string name="simple">פָּשׁוּט</string>
+    <string name="doble">לְהַכפִּיל</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">המרות</string>
+
+    <string name="menu_gallery">הִיסטוֹרִיָה</string>
+    <string name="action_settings">על אודות</string>
+    <string name="diametro">קוטר (ס"מ)</string>
+    <string name="delete">לִמְחוֹק</string>
+    <string name="grosorBola">עובי הכדור (cm)</string>
+    <string name="enganche">עם תקלה</string>
+    <string name="sinEnganche">אין תקלה</string>
+    <string name="separacion">רווח בין פנינים (ס"מ)</string>
+    <string name="calcular">לחשב</string>
+</resources>

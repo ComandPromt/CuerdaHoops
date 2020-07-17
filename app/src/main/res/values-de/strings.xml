@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº Perlen</string>
+    <string name="simple">Einfach</string>
+    <string name="doble">Doppelt</string>
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Konvertierungen</string>
+
+    <string name="menu_gallery">Geschichte</string>
+    <string name="action_settings">Über</string>
+    <string name="diametro">Durchmesser (cm)</string>
+    <string name="delete">Löschen</string>
+    <string name="grosorBola">Kugeldicke (cm)</string>
+    <string name="enganche">Mit Anhängerkupplung</string>
+    <string name="sinEnganche">ohne Anhängerkupplung</string>
+    <string name="separacion">Abstand zwischen Perlen (cm)</string>
+    <string name="calcular">Berechnung</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº perle</string>
+    <string name="simple">Semplice</string>
+    <string name="doble">Doppio</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Conversioni</string>
+
+    <string name="menu_gallery">Storia</string>
+    <string name="action_settings">Di</string>
+    <string name="diametro">Diametro (cm)</string>
+    <string name="delete">Elimina</string>
+    <string name="grosorBola">Spessore della sfera (cm)</string>
+    <string name="enganche">Con intoppo</string>
+    <string name="sinEnganche">Nessun intoppo</string>
+    <string name="separacion">Spazio tra le perle (cm)</string>
+    <string name="calcular">Calcolare</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">真珠の数</string>
+    <string name="simple">シンプルな</string>
+    <string name="doble">ダブル</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">変換</string>
+
+    <string name="menu_gallery">歴史</string>
+    <string name="action_settings">約</string>
+    <string name="diametro">直径（cm）</string>
+    <string name="delete">削除する</string>
+    <string name="grosorBola">ボールの厚さ (cm)</string>
+    <string name="enganche">ヒッチあり</string>
+    <string name="sinEnganche">問題はありません</string>
+    <string name="separacion">真珠の間のスペース（cm）</string>
+    <string name="calcular">計算する</string>
+</resources>

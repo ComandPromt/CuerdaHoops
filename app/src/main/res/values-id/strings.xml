@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº mutiara</string>
+    <string name="simple">Sederhana</string>
+    <string name="doble">Dua kali lipat</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Konversi</string>
+
+    <string name="menu_gallery">Sejarah</string>
+    <string name="action_settings">Tentang</string>
+    <string name="diametro">Diameter (cm)</string>
+    <string name="delete">Menghapus</string>
+    <string name="grosorBola">Ketebalan bola (cm)</string>
+    <string name="enganche">Dengan halangan</string>
+    <string name="sinEnganche">Tidak ada halangan</string>
+    <string name="separacion">Jarak antar mutiara (cm)</string>
+    <string name="calcular">Menghitung</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Жемчуг</string>
+    <string name="simple">просто</string>
+    <string name="doble">двойной</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Конверсии</string>
+
+    <string name="menu_gallery">история</string>
+    <string name="action_settings">Около</string>
+    <string name="diametro">Диаметр (см)</string>
+    <string name="delete">Удалить</string>
+    <string name="grosorBola">Толщина шара (cm)</string>
+    <string name="enganche">С сцепкой</string>
+    <string name="sinEnganche">без заминок</string>
+    <string name="separacion">Расстояние между жемчужинами (см)</string>
+    <string name="calcular">Рассчитать</string>
+</resources>

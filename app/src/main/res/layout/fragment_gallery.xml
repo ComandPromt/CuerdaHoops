@@ -11,18 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay"
-        tools:ignore="MissingConstraints">
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@android:drawable/ic_menu_delete" />
-    </com.google.android.material.appbar.AppBarLayout>
+        tools:ignore="MissingConstraints"/>
 
     <ScrollView
-        android:layout_width="705dp"
-        android:layout_height="671dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="24dp"
@@ -30,18 +23,25 @@
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
         tools:ignore="MissingConstraints">
 
-        <LinearLayout
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            tools:ignore="MissingConstraints">
 
-
-            <ListView
-                android:id="@+id/lista"
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="656dp" />
-        </LinearLayout>
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
+
+                <ListView
+                    android:id="@+id/lista"
+                    android:layout_width="706dp"
+                    android:layout_height="656dp" />
+            </LinearLayout>
+        </HorizontalScrollView>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

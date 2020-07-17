@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nie perly</string>
+    <string name="simple">prostý</string>
+    <string name="doble">dvojitý</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">konverzie</string>
+
+    <string name="menu_gallery">histórie</string>
+    <string name="action_settings">About</string>
+    <string name="diametro">Priemer (cm)</string>
+    <string name="delete">vymazať</string>
+    <string name="grosorBola">Hrúbka gule (cm)</string>
+    <string name="enganche">S ťažným zariadením</string>
+    <string name="sinEnganche">žiadne ťažné zariadenie</string>
+    <string name="separacion">Vzdialenosť medzi perlami (cm)</string>
+    <string name="calcular">vypočítať</string>
+</resources>

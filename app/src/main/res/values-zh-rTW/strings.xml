@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">珍珠號</string>
+    <string name="simple">簡單</string>
+    <string name="doble">雙</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">轉換次數</string>
+
+    <string name="menu_gallery">歷史</string>
+    <string name="action_settings">關於</string>
+    <string name="diametro">直徑（厘米）</string>
+    <string name="delete">刪除</string>
+    <string name="grosorBola">球厚 （厘米）</string>
+    <string name="enganche">帶掛鉤</string>
+    <string name="sinEnganche">沒有障礙</string>
+    <string name="separacion">珍珠之間的距離（厘米）</string>
+    <string name="calcular">計算</string>
+</resources>

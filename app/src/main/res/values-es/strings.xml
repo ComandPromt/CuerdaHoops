@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº bolas</string>
+    <string name="simple">Simple</string>
+    <string name="doble">Doble</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Conversiones</string>
+
+    <string name="menu_gallery">Historial</string>
+    <string name="action_settings">Sobre</string>
+    <string name="diametro">Diametro (cm)</string>
+    <string name="delete">Borrar</string>
+    <string name="grosorBola">Ancho de bola (cm)</string>
+    <string name="enganche">Con enganche</string>
+    <string name="sinEnganche">Sin enganche</string>
+    <string name="separacion">Espacio entre bolas (cm)</string>
+    <string name="calcular">Calcular</string>
+</resources>

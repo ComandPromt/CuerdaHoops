@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº مروارید</string>
+    <string name="simple">ساده</string>
+    <string name="doble">دو برابر</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">تبدیل</string>
+
+    <string name="menu_gallery">تاریخ</string>
+    <string name="action_settings">در باره</string>
+    <string name="diametro">قطر (سانتی متر)</string>
+    <string name="delete">حذف</string>
+    <string name="grosorBola">ضخامت توپ (cm)</string>
+    <string name="enganche">با دردسر</string>
+    <string name="sinEnganche">بدون دردسر</string>
+    <string name="separacion">فاصله بین مرواریدها (سانتی متر)</string>
+    <string name="calcular">محاسبه</string>
+</resources>

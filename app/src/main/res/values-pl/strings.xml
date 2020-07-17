@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Liczba pereł</string>
+    <string name="simple">Prosty</string>
+    <string name="doble">Podwójnie</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Konwersje</string>
+
+    <string name="menu_gallery">Historia</string>
+    <string name="action_settings">About</string>
+    <string name="diametro">Średnica (cm)</string>
+    <string name="delete">Usunąć</string>
+    <string name="grosorBola">Grubość kulki (cm)</string>
+    <string name="enganche">Z zaczepem</string>
+    <string name="sinEnganche">Bez problemów</string>
+    <string name="separacion">Odległość między perłami (cm)</string>
+    <string name="calcular">Oblicz</string>
+</resources>

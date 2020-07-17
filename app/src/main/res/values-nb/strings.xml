@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Ingen perler</string>
+    <string name="simple">Enkel</string>
+    <string name="doble">Dobbelt</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Konverteringer </string>
+
+    <string name="menu_gallery">Historie</string>
+    <string name="action_settings">Om</string>
+    <string name="diametro">Diameter (cm)</string>
+    <string name="delete">Slett</string>
+    <string name="grosorBola">Kule tykkelse (cm)</string>
+    <string name="enganche">Med feil</string>
+    <string name="sinEnganche">Ingen problemer</string>
+    <string name="separacion">Avstand mellom perler (cm)</string>
+    <string name="calcular">Regne ut</string>
+</resources>

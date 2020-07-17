@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº inciler</string>
+    <string name="simple">Basit</string>
+    <string name="doble">Çift</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Dönüşümler</string>
+
+    <string name="menu_gallery">Tarih</string>
+    <string name="action_settings">hakkında</string>
+    <string name="diametro">Çap (cm)</string>
+    <string name="delete">Sil</string>
+    <string name="grosorBola">Top kalınlığı (cm)</string>
+    <string name="enganche">Aksaklık ile</string>
+    <string name="sinEnganche">Aksaklık yok</string>
+    <string name="separacion">İnciler arasındaki boşluk (cm)</string>
+    <string name="calcular">Hesaplamak</string>
+</resources>

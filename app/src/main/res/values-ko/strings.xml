@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">진주의 수</string>
+    <string name="simple">단순한</string>
+    <string name="doble">더블</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">전환</string>
+
+    <string name="menu_gallery">역사</string>
+    <string name="action_settings">약</string>
+    <string name="diametro">직경 (cm)</string>
+    <string name="delete">지우다</string>
+    <string name="grosorBola">볼 두께 (cm)</string>
+    <string name="enganche">히치</string>
+    <string name="sinEnganche">장애 없음</string>
+    <string name="separacion">진주 사이의 공간 (cm)</string>
+    <string name="calcular">계산하다</string>
+</resources>

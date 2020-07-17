@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Inga pärlor</string>
+    <string name="simple">Enkel</string>
+    <string name="doble">Dubbel</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">omvandlingar</string>
+
+    <string name="menu_gallery">Spela in</string>
+    <string name="action_settings">Handla om</string>
+    <string name="diametro">Diameter (cm)</string>
+    <string name="delete">Radera</string>
+    <string name="grosorBola">Kultjocklek (cm)</string>
+    <string name="enganche">Med problem</string>
+    <string name="sinEnganche">Ingen problem</string>
+    <string name="separacion">Utrymme mellan pärlor (cm)</string>
+    <string name="calcular">Beräkna</string>
+</resources>

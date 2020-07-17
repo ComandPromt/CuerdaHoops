@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">موتیوں کی تعداد</string>
+    <string name="simple">آسان</string>
+    <string name="doble">دگنا</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">تبادلوں</string>
+
+    <string name="menu_gallery">تاریخ</string>
+    <string name="action_settings">کے بارے میں</string>
+    <string name="diametro">قطر (سینٹی میٹر))</string>
+    <string name="delete">حذف کریں</string>
+    <string name="grosorBola"> (سینٹی میٹر)گیند کی موٹائی</string>
+    <string name="enganche">رکاوٹ کے ساتھ</string>
+    <string name="sinEnganche">کوئی رکاوٹ نہیں</string>
+    <string name="separacion">موتی (سینٹی میٹر) کے درمیان جگہ</string>
+    <string name="calcular">حساب لگائیں</string>
+</resources>

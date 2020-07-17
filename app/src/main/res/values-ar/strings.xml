@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">لا لآلئ</string>
+    <string name="simple">بسيط</string>
+    <string name="doble">مزدوج</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">التحويلات</string>
+
+    <string name="menu_gallery">التاريخ</string>
+    <string name="action_settings">حول</string>
+    <string name="diametro">القطر (سم)</string>
+    <string name="delete">حذف</string>
+    <string name="grosorBola">سمك الكرة (سم)</string>
+    <string name="enganche">مع عقبة</string>
+    <string name="sinEnganche">لا عقبة</string>
+    <string name="separacion">المسافة بين اللآلئ (سم)</string>
+    <string name="calcular">احسب</string>
+</resources>

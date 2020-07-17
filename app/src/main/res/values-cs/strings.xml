@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Nº pearls</string>
+    <string name="simple">Jednoduchý</string>
+    <string name="doble">Dvojnásobek</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Konverze</string>
+
+    <string name="menu_gallery">Dějiny</string>
+    <string name="action_settings">About</string>
+    <string name="diametro">Průměr (cm)</string>
+    <string name="delete">Vymazat</string>
+    <string name="grosorBola">Tloušťka koule (cm)</string>
+    <string name="enganche">Se závěsem</string>
+    <string name="sinEnganche">Žádné spojení</string>
+    <string name="separacion">Mezera mezi perlami (cm)</string>
+    <string name="calcular">Vypočítat</string>
+</resources>

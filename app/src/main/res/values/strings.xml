@@ -1,14 +1,19 @@
 <resources>
     <string name="app_name">CuerdaHoops</string>
-    <string name="n_bolas">Nº bolas</string>
+    <string name="n_bolas">Nº pearls</string>
     <string name="simple">Simple</string>
-    <string name="doble">Doble</string>
-    <string name="nav_header_desc">Home</string>
+    <string name="doble">Double</string>
     <string name="nav_header_title">CuerdaHoops</string>
     <string name="nav_header_subtitle">v2.0</string>
-    <string name="menu_home">Home</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_gallery">aaa</string>
+    <string name="menu_home">Conversions</string>
+
+    <string name="menu_gallery">History</string>
     <string name="action_settings">About</string>
-    <string name="diametro">Diametro</string>
+    <string name="diametro">Diameter (cm)</string>
+    <string name="delete">Delete</string>
+    <string name="grosorBola">Ball thickness (cm)</string>
+    <string name="enganche">With hitch</string>
+    <string name="sinEnganche">Without a hitch</string>
+    <string name="separacion">Space between pearls (cm)</string>
+    <string name="calcular">Calculate</string>
 </resources>

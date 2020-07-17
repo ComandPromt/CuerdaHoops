@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CuerdaHoops</string>
+    <string name="n_bolas">Ngọc trai</string>
+    <string name="simple">Đơn giản</string>
+    <string name="doble">Gấp đôi</string>
+
+    <string name="nav_header_title">CuerdaHoops</string>
+    <string name="nav_header_subtitle">v2.0</string>
+    <string name="menu_home">Chuyển đổi</string>
+
+    <string name="menu_gallery">Lịch sử</string>
+    <string name="action_settings">Trong khoảng</string>
+    <string name="diametro">Đường kính (cm)</string>
+    <string name="delete">Xóa bỏ</string>
+    <string name="grosorBola">Độ dày bóng (cm)</string>
+    <string name="enganche">Với quá giang</string>
+    <string name="sinEnganche">Không quá giang</string>
+    <string name="separacion">Khoảng cách giữa các viên ngọc (cm)</string>
+    <string name="calcular">Tính toán</string>
+</resources>
